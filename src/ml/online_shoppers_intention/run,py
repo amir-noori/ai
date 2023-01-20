@@ -1,0 +1,10 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import plotly as py
+import plotly.graph_objs as go
+
+# read the dataset
+data = pd.read_csv('../../../data/online_shoppers_intention.csv')
+print(data.isnull().sum())
